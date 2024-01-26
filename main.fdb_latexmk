@@ -1,6 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1706303715.42091 "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" "main.pdf" "main" 1706303718.22518 0
-  "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" 1706303713 7431 92db363f7aefbffc7dba985b3beee82e ""
+["pdflatex"] 1706306450.36258 "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" "main.pdf" "main" 1706306453.20325 0
+  "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" 1706306448 8310 1335aa794855e5a14228baf17ee69742 ""
+  "c:/Users/Taha/Desktop/test issue.jpg" 1706306335 118776 74662a30e5c26b0696a8bc6088ba54a5 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1705933951 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1705936898 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1705935753 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -72,9 +73,9 @@
   "e:/latex/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705950482 5035151 62aaca79169da6b18027b154dddcae80 ""
   "e:/latex/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705950676 8218987 c9c6b150a17e08d243f0c57a35197cb9 ""
   "e:/latex/texlive/2023/texmf.cnf" 1705950427 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1706303717 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "main.out" 1706303717 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1706303713 7431 92db363f7aefbffc7dba985b3beee82e ""
+  "main.aux" 1706306452 358 add85a99ed3a793af8a706185550e0f1 "pdflatex"
+  "main.out" 1706306452 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1706306448 8310 1335aa794855e5a14228baf17ee69742 ""
   (generated)
   "main.aux"
   "main.log"
