@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706302546.48599 "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" "main.pdf" "main" 1706302548.97192 0
-  "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" 1706302536 6999 59159e34d083310e10c1d29f4087996b ""
+["pdflatex"] 1706303715.42091 "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" "main.pdf" "main" 1706303718.22518 0
+  "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" 1706303713 7431 92db363f7aefbffc7dba985b3beee82e ""
   "e:/latex/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1705933951 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1705936898 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1705935753 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -42,6 +42,9 @@
   "e:/latex/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1705941487 2462 6bc53756156dbd71c1ad550d30a3b93f ""
   "e:/latex/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty" 1705941487 5048 425739d70251273bf93e3d51f3c40048 ""
   "e:/latex/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1705941487 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1705934864 7068 06f8d141725d114847527a66439066b6 ""
+  "e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def" 1705934864 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
+  "e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty" 1705934864 62761 3c92d495a9e03d7254b9a3266aa17164 ""
   "e:/latex/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1705936034 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "e:/latex/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1705936175 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "e:/latex/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1705936351 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
@@ -69,9 +72,9 @@
   "e:/latex/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705950482 5035151 62aaca79169da6b18027b154dddcae80 ""
   "e:/latex/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705950676 8218987 c9c6b150a17e08d243f0c57a35197cb9 ""
   "e:/latex/texlive/2023/texmf.cnf" 1705950427 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1706302548 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "main.out" 1706302548 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1706302536 6999 59159e34d083310e10c1d29f4087996b ""
+  "main.aux" 1706303717 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "main.out" 1706303717 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1706303713 7431 92db363f7aefbffc7dba985b3beee82e ""
   (generated)
   "main.aux"
   "main.log"

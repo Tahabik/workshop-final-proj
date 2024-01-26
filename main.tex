@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{csquotes}
 
 \pagestyle{fancy}
 \fancyhf{} 
@@ -82,8 +83,11 @@ and there are other reasons that this might happen\\
 \begin{itemize}
     \item What is fuzzy searching?\\
     A fuzzy search is a technique that uses search algorithms to find strings that match patterns approximately. It's particularly useful for helping users find webpages without having to know exactly what they're looking for or how a word is spelled. Fuzzy searches are also used for Structured Query Language lookups to help database users find records without having to be sure of the exact spelling of the value they're looking for.A fuzzy search is performed using a fuzzy matching algorithm, which returns a list of results based on likely relevance even though search argument words and spellings may not be an exact match. For web lookups, exact and highly relevant matches appear near the top of the list. Subjective relevance ratings may be given, usually as percentages.
-    \item ls|fzf:
-    
+    \item ls|fzf:\\
+    ls simply displays the contents of the current directory, after that the output passes throught the 
+    fzf  for interactive selection. It is a convenient way to navigate and select files from the commend line
+    using a fuzzy search interface which is provided by 'fzf'. After running the command we will be able to filter 
+    and select items from the list generated from the \textquote{ls} command.
 \end{itemize}
 
 

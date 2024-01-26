@@ -88,6 +88,14 @@ INPUT e:/latex/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.s
 INPUT e:/latex/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT e:/latex/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./main.aux
