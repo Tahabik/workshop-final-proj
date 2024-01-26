@@ -51,6 +51,16 @@ Vim allows you to place marks in your file, which act as bookmarks. You can then
 3. Text Objects:
 Vim provides a variety of text objects that allow you to operate on different parts of text efficiently. For instance, 'iw' represents "inner word," and 'i(' represents "inner parentheses." These text objects can be combined with commands to perform powerful operations on specific chunks of text.\\
 \subsection*{\large 2.2 Memory Profiling}
+\subsubsection*{\large 2.2.1 Memory Leak}
+Memory leaks occur when a computer program allocates memory but fails to release or deallocate it properly, leading to a gradual consumption of system resources. In simpler terms, memory leaks occur when a program reserves space in the computer's memory but forgets to free up that space when it's no longer needed. This can result in a gradual decrease in available memory, which can eventually lead to performance issues or even program crashes.
 
+In these cases this might happen:\\
+1. Unintentional Memory Allocation:\\
+If you dynamically allocate memory using functions like malloc() in C or new in C++, you must remember to free that memory using free() or delete respectively. Forgetting to do so can lead to memory leaks.\\
+2. Not Releasing Resources:\\
+Memory leaks are not limited to just memory allocation. Other resources like file handles, network connections, or database connections also need to be released when no longer needed. Failure to release these resources can lead to memory leak.\\
+3. Circular References\\
+4. Global Variables and Static Data\\
+and there are other reasons that this might happen\\
 
 \end{document}
