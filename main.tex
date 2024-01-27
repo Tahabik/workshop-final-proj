@@ -11,13 +11,8 @@
 \pagestyle{fancy}
 \fancyhf{} 
 
-
 \fancyhead[L]{\Large Final Assignment}
-
-
 \fancyhead[R]{\Large Computer Workshop}
-
-
 \renewcommand{\headrulewidth}{1pt}
 
 
@@ -92,10 +87,20 @@ and there are other reasons that this might happen\\
 \subsubsection*{\large 2.3.3 Using the fzf to find your favourite PDF}
 \begin{enumerate}
     \item Command to list the directory of all the files with the extension .PDF:\\
+    Here i used the command \textquote{fd -e pdf} in WSL and this bash script list all the directories
+    that have files with the .PDF . this command uses the \textquote{-e} flag tofilter files by pdf extension.
     \item Command to use fzf to select a PDF from the data we gathered above:\\
+    Now we wanna be able to go through the files listed above and select them for this purpose we use 
+    \textquote{fd -e pdf | fzf --prompt="Select a PDF file: " --preview="pdftotext {} - | head -n 20"
+    } command the fd -e pdf list the pdf files and the fzf create a dynamic to be able to search through the files 
+    with an arrow shaped thing and select among them the pdf that we want.
 \end{enumerate}
 
 \subsubsection*{\large 2.3.3 Opening the file using Zathura}
+Zathura is a pdf viewer which after listing the pdfs and selecting them zathura give this access to us to open them and review them
+for the sake of doing this we use the command \textquote{zathura \textquote{(fd -e pdf | fzf --prompt="Select a PDF file: " --preview="pdftotext {} - | head -n 20")
+}} zathura wraps the entire command inside the $(..)$ and the command inside it is the same that's been discussed in the subsection above.
+
 
 
 \section*{\Huge 3 Git and Foss}

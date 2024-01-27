@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706306539.42262 "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" "main.pdf" "main" 1706306542.47423 0
-  "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" 1706306537 8310 f7009665355e9a5b0816b253ac514dde ""
+["pdflatex"] 1706339422.11566 "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" "main.pdf" "main" 1706339424.43612 0
+  "c:/Users/Taha/Desktop/Workshop final/workshop-final-proj/main.tex" 1706339420 9357 ff28e6ebf91f61f7bbed564696e5d29d ""
   "c:/Users/Taha/Desktop/test issue.jpg" 1706306335 118776 74662a30e5c26b0696a8bc6088ba54a5 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1705933951 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1705936898 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -18,6 +18,7 @@
   "e:/latex/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1705933871 1116 933a60c408fc0a863a92debe84b2d294 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1705933871 1120 8b7d695260f3cff42e636090a8002094 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1705931924 32080 340ef9bf63678554ee606688e7b5339d ""
+  "e:/latex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1705931924 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "e:/latex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1705931924 35752 024fb6c41858982481f6968b5fc26508 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1705931924 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "e:/latex/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1705931924 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
@@ -73,9 +74,9 @@
   "e:/latex/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705950482 5035151 62aaca79169da6b18027b154dddcae80 ""
   "e:/latex/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705950676 8218987 c9c6b150a17e08d243f0c57a35197cb9 ""
   "e:/latex/texlive/2023/texmf.cnf" 1705950427 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1706306542 358 add85a99ed3a793af8a706185550e0f1 "pdflatex"
-  "main.out" 1706306541 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1706306537 8310 f7009665355e9a5b0816b253ac514dde ""
+  "main.aux" 1706339424 358 add85a99ed3a793af8a706185550e0f1 "pdflatex"
+  "main.out" 1706339423 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1706339420 9357 ff28e6ebf91f61f7bbed564696e5d29d ""
   (generated)
   "main.aux"
   "main.log"
