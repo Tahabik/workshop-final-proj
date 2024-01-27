@@ -5,6 +5,13 @@
 \geometry{a4paper, margin=1in}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+}
 \usepackage{fancyhdr}
 \usepackage{csquotes}
 
@@ -27,19 +34,28 @@
 
 \maketitle
 \newpage
+
+\tableofcontents %tabke of contents
+\newpage
+
 \section*{\Huge 1 Git and Github}
+\addcontentsline{toc}{section}{1 Git and Github}%adding to the contents table 
 \subsection*{\Large 1.1 Repository Initialization and Commits}
+\addcontentsline{toc}{subsection}{1.1 Repository Initialization and Commits}
 For creating a repository for this project, first i opened my account and then in the repository section of the github i created a repository and named it \textquote{Workshop-Final-proj} and then 
 cloned the repository into a local directory of my pc and synced it with my vscode where i'm editing this assignment right now and going to commit the changes so far right now after putting the dot
 at the end of this sentence.\\
 \subsection*{\Large 1.2 Github Actions for LaTeX Compilation}
+\addcontentsline{toc}{subsection}{1.2 Github Actions for LaTeX Compilation}
 After setting up the repository in github i created a main.tex that i'm constantly commiting changes there
 and i created folder .github which is workflow to i build and release my LaTeX files through github Actions.
 And after each changes in the text editor i commit the changes to the main.tex file via vscode.\\
 
 
 \section*{\Huge 2 Exploration Tasks}
+\addcontentsline{toc}{section}{2 Exploration Tasks}
 \subsection*{\Large 2.1 Vim Advanced Features}
+\addcontentsline{toc}{subsection}{2.1 Vim Advanced Features}
 1. Sessions:
 Vim sessions allow you to save and restore your working environment, including open files, cursor positions, and window layouts. You can create a session with \textquote{:mksession} and then later restore it using \textquote{:source Session.vim}. This is particularly useful when you are working on a project and want to quickly resume your work with the same setup.\\
 2. Marks And Jumps:
@@ -47,7 +63,9 @@ Vim allows you to place marks in your file, which act as bookmarks. You can then
 3. Text Objects:
 Vim provides a variety of text objects that allow you to operate on different parts of text efficiently. For instance, \textquote{iw} represents \textquote{inner word,} and \textquote{i(} represents \textquote{inner parentheses.} These text objects can be combined with commands to perform powerful operations on specific chunks of text.\\
 \subsection*{\Large 2.2 Memory Profiling}
+\addcontentsline{toc}{subsection}{2.2 Memory Profiling}
 \subsubsection*{\large 2.2.1 Memory Leak}
+\addcontentsline{toc}{subsubsection}{2.2.1 Memory Leak}
 Memory leaks occur when a computer program allocates memory but fails to release or deallocate it properly, leading to a gradual consumption of system resources. In simpler terms, memory leaks occur when a program reserves space in the computer's memory but forgets to free up that space when it's no longer needed. This can result in a gradual decrease in available memory, which can eventually lead to performance issues or even program crashes.
 
 In these cases this might happen:\\
@@ -59,6 +77,7 @@ Memory leaks are not limited to just memory allocation. Other resources like fil
 4. Global Variables and Static Data\\
 and there are other reasons that this might happen\\
 \subsubsection*{\large 2.2.2 Memory Profilers}
+\addcontentsline{toc}{subsubsection}{2.2.2 Memory Profilers}
 \begin{itemize}
     \item Introduction:\\
     The Valgrind tool suite provides a number of debugging and profiling tools that help you make your programs faster and more correct. The most popular of these tools is called Memcheck. It can detect many memory-related errors that are common in C and C++ programs and that can lead to crashes and unpredictable behaviour.It is mainly an open-source programming tools designedd for memory debugging, memory leak detection, and profiling. Valgrind provides a framework for instrumenting and analysing the memory usage of a program, helping developers identify and fix memory related issues.
@@ -74,7 +93,9 @@ and there are other reasons that this might happen\\
 
 \end{itemize}
 \subsection*{\Large 2.3 GNU/Linux Bash Scripting}
+\addcontentsline{toc}{subsection}{2.3 GNU/Linux Bash Scripting}
 \subsubsection*{\large 2.3.1 fzf}
+\addcontentsline{toc}{subsubsection}{2.3.1 fzf}
 \begin{itemize}
     \item What is fuzzy searching?\\
     A fuzzy search is a technique that uses search algorithms to find strings that match patterns approximately. It's particularly useful for helping users find webpages without having to know exactly what they're looking for or how a word is spelled. Fuzzy searches are also used for Structured Query Language lookups to help database users find records without having to be sure of the exact spelling of the value they're looking for.A fuzzy search is performed using a fuzzy matching algorithm, which returns a list of results based on likely relevance even though search argument words and spellings may not be an exact match. For web lookups, exact and highly relevant matches appear near the top of the list. Subjective relevance ratings may be given, usually as percentages.
@@ -84,7 +105,8 @@ and there are other reasons that this might happen\\
     using a fuzzy search interface which is provided by \textquote{fzf}. After running the command we will be able to filter 
     and select items from the list generated from the \textquote{ls} command.
 \end{itemize}
-\subsubsection*{\large 2.3.3 Using the fzf to find your favourite PDF}
+\subsubsection*{\large 2.3.2 Using the fzf to find your favourite PDF}
+\addcontentsline{toc}{subsubsection}{2.3.2 Using the fzf to find your favourite PDF}
 \begin{enumerate}
     \item Command to list the directory of all the files with the extension .PDF:\\
     Here i used the command \textquote{fd -e pdf} in WSL and this bash script list all the directories
@@ -97,6 +119,7 @@ and there are other reasons that this might happen\\
 \end{enumerate}
 
 \subsubsection*{\large 2.3.3 Opening the file using Zathura}
+\addcontentsline{toc}{subsubsection}{2.3.3 Opening the file using Zathura}
 Zathura is a pdf viewer which after listing the pdfs and selecting them zathura give this access to us to open them and review them
 for the sake of doing this we use the command \textquote{zathura \textquote{(fd -e pdf | fzf --prompt="Select a PDF file: " --preview="pdftotext {} - | head -n 20")
 }} zathura wraps the entire command inside the $(..)$ and the command inside it is the same that's been discussed in the subsection above.
@@ -104,9 +127,12 @@ for the sake of doing this we use the command \textquote{zathura \textquote{(fd 
 
 
 \section*{\Huge 3 Git and Foss}
+\addcontentsline{toc}{section}{3 Git and Foss}
 \subsection*{\Large 3.0 README.md}
+\addcontentsline{toc}{subsection}{3.0 README.md}
 This part have been done in the repository which link's where attached earlier in the doc and should visit there to check this part.
 \subsection*{\Large 3.1 Issues}
+\addcontentsline{toc}{subsection}{3.1 Issues}
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{"C:/Users/Taha/Desktop/test issue.jpg"}
